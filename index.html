@@ -1,0 +1,2693 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnapBook</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="style.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="left__panel">
+      <a href="#" class="logo__block-link">
+        <div class="logo-block">
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8" fill-opacity="0.2"/>
+          </svg>        
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8" fill-opacity="0.3"/>
+          </svg>        
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8" fill-opacity="0.4"/>
+          </svg>        
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8" fill-opacity="0.6"/>
+          </svg>        
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8" fill-opacity="0.8"/>
+          </svg>        
+          <svg class="logo-stick" width="2" height="62" viewBox="0 0 2 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="2" height="62" fill="#1A73E8"/>
+          </svg>   
+          <div class="logo__block-title">
+            <span class="logo__title">
+              Snapbook
+            </span>
+            <span class="logo__title-text">
+              Сервис онлайн записи клиентов
+            </span>
+          </div>     
+        </div>
+      </a>
+      <div class="btns-block">
+        <ul class="btns-list">
+          <li class="btns-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 8H20M4 8V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2842 19.7822 18.9079C20 18.4805 20 17.9215 20 16.8036V8M4 8V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H8M20 8V7.19691C20 6.07899 20 5.5192 19.7822 5.0918C19.5905 4.71547 19.2837 4.40973 18.9074 4.21799C18.4796 4 17.9203 4 16.8002 4H16M16 2V4M16 4H8M8 2V4" stroke="#1A73E8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+            <a href="#" class="btns__item-link active">
+              Календарь записей
+            </a>
+          </li>
+          <li class="btns-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.0002 4H7.2002C6.08009 4 5.51962 4 5.0918 4.21799C4.71547 4.40973 4.40973 4.71547 4.21799 5.0918C4 5.51962 4 6.08009 4 7.2002V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2839 19.7822 18.9076C20 18.4802 20 17.921 20 16.8031V14M16 5L10 11V14H13L19 8M16 5L19 2L22 5L19 8M16 5L19 8" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+            <a href="#" class="btns__item-link">
+              Заявки на&nbsp;запись
+            </a>
+          </li>
+          <li class="btns-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 6.5V17.5C14 17.9647 14 18.197 14.0384 18.3902C14.1962 19.1836 14.8165 19.8036 15.6099 19.9614C15.8031 19.9999 16.0354 19.9999 16.5 19.9999C16.9647 19.9999 17.1969 19.9999 17.3901 19.9614C18.1835 19.8036 18.8036 19.1836 18.9614 18.3902C18.9999 18.197 19 17.9647 19 17.5V6.5C19 6.03535 18.9999 5.80306 18.9614 5.60986C18.8036 4.81648 18.1836 4.19624 17.3902 4.03843C17.197 4 16.9647 4 16.5 4C16.0353 4 15.8031 4 15.6099 4.03843C14.8165 4.19624 14.1962 4.81648 14.0384 5.60986C14 5.80306 14 6.03534 14 6.5Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 6.5V17.5C5 17.9647 5 18.197 5.03843 18.3902C5.19624 19.1836 5.81648 19.8036 6.60986 19.9614C6.80306 19.9999 7.03539 19.9999 7.50004 19.9999C7.96469 19.9999 8.19694 19.9999 8.39014 19.9614C9.18352 19.8036 9.80361 19.1836 9.96143 18.3902C9.99986 18.197 10 17.9647 10 17.5V6.5C10 6.03535 9.99986 5.80306 9.96143 5.60986C9.80361 4.81648 9.18356 4.19624 8.39018 4.03843C8.19698 4 7.96466 4 7.5 4C7.03534 4 6.80306 4 6.60986 4.03843C5.81648 4.19624 5.19624 4.81648 5.03843 5.60986C5 5.80306 5 6.03534 5 6.5Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+            <a href="#" class="btns__item-link">
+              Услуги
+            </a>
+          </li>
+          <li class="btns-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 19.9999C21 18.2583 19.3304 16.7767 17 16.2275M15 20C15 17.7909 12.3137 16 9 16C5.68629 16 3 17.7909 3 20M15 13C17.2091 13 19 11.2091 19 9C19 6.79086 17.2091 5 15 5M9 13C6.79086 13 5 11.2091 5 9C5 6.79086 6.79086 5 9 5C11.2091 5 13 6.79086 13 9C13 11.2091 11.2091 13 9 13Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+            <a href="#" class="btns__item-link">
+              Мастера/Специалисты
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="profile__block">
+        <div class="profile__block-link">
+          <div class="profile__block-img">
+            <img src="./img/profile.png" alt="photo">
+          </div>
+          <div class="profile__block-name">
+            <span class="profile__name">
+              Иванова Екатерина
+            </span>
+            <span class="profile__type">
+              Владелец
+            </span>
+          </div>
+        </div>
+        <ul class="profile__block-list">
+          <li class="profile__block-item">
+            <a href="#" class="profile__item-text">
+              Профиль
+            </a>
+          </li>
+          <li class="profile__block-item">
+            <a href="#" class="profile__item-text">
+              Настройки
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="right__block master__open calendar__open-block">          
+      <ul class="right__time-list">
+        <li class="right__time-item">
+          <span class="time__item">
+            8:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            8:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            9:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            9:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            10:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            10:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            11:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            11:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            12:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            12:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            13:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            13:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            14:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            14:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            15:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            16:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            16:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            17:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            17:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            18:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            18:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            19:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            19:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            20:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            20:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            21:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            21:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            22:00
+          </span>
+        </li>
+      </ul>
+      <div class="right__masters-list">
+        <ul class="masters__list">
+            <div class="time__line-block">
+              <span class="line__block-descr">
+                10:43
+              </span>
+              <svg width="1024" height="1" viewBox="0 0 1024 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4.37114e-08" y1="0.5" x2="1030" y2="0.50009" stroke="#FF0000"/>
+              </svg>  
+            </div>
+          <li class="master__list-item active">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block first__mob">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+              <div class="item__block-descr block__blue-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block "></div>
+            <div class="list__item-block "></div>
+            <div class="list__item-block mob__hidden"></div>
+            
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master2.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Оксана Дмитриева
+                  </span>
+                  <span class="master__type">
+                    Мастер маникюра
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__gray">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name new__sign">
+                    Новая запись
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Маникюр
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="block__new-sign">
+                <button class="block__sign-close">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 16L12 12M12 12L8 8M12 12L16 8M12 12L8 16" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                  
+                </button>
+                <ul class="new__sign-list">
+                  <li class="new__sign-item pl36 fdc">
+                    <span class="new__sign-title">
+                      Добавьте услугу
+                    </span>
+                    <svg class="tab__line" width="220" height="1" viewBox="0 0 220 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line y1="0.5" x2="220" y2="0.5" stroke="#A0A0A0"/>
+                    </svg>   
+                    <svg class="pc__line" width="334" height="1" viewBox="0 0 334 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line y1="0.5" x2="334" y2="0.5" stroke="#A0A0A0"/>
+                    </svg>                                     
+                  </li>
+                  <li class="new__sign-item">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>                      
+                    <span class="sign__item-text ml20">
+                      Четверг, 19&nbsp;сентября
+                    </span>
+                    <span class="sign__item-text ml16">
+                      8:00&nbsp;&mdash; 9:00
+                    </span>
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                  
+                    <input type="text" class="new__sign-input ml20" placeholder="Добавить клиента">
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 13.3333C14 12.1722 12.8869 11.1844 11.3333 10.8184M10 13.3333C10 11.8606 8.20914 10.6667 6 10.6667C3.79086 10.6667 2 11.8606 2 13.3333M10 8.66668C11.4728 8.66668 12.6667 7.47277 12.6667 6.00001C12.6667 4.52725 11.4728 3.33334 10 3.33334M6 8.66668C4.52724 8.66668 3.33333 7.47277 3.33333 6.00001C3.33333 4.52725 4.52724 3.33334 6 3.33334C7.47276 3.33334 8.66667 4.52725 8.66667 6.00001C8.66667 7.47277 7.47276 8.66668 6 8.66668Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                    <span class="sign__item-text ml20">
+                      Мария Васильева, парикмахер
+                    </span>
+                    <svg class="ml20" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="7.5" fill="#CCF4FF" stroke="#A0A0A0"/>
+                    </svg>                    
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 11.3334H6.66667M10 10.6667H12M12 10.6667H14M12 10.6667V12.6667M12 10.6667V8.66669M2 8.00002H9.33333M2 4.66669H9.33333" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                    <input type="text" class="new__sign-input ml20" placeholder="Добавить описание или коментарии">
+                  </li>
+                </ul>
+                <div class="color__change-block">
+                  <ul class="color__change-list">
+                    <li class="color__change-item">
+                      <span class="color__item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="8" cy="8" r="7.5" fill="#00C8FF" stroke="#30363E"/>
+                        </svg>                        
+                      </span>
+                    </li>
+                    <li class="color__change-item">
+                      <span class="color__item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="8" cy="8" r="8" fill="#FF6A00"/>
+                          </svg>
+                          
+                      </span>
+                    </li>
+                    <li class="color__change-item">
+                      <span class="color__item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="8" cy="8" r="8" fill="#019F3C"/>
+                          </svg>
+                          
+                      </span>
+                    </li>
+                    <li class="color__change-item">
+                      <span class="color__item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="8" cy="8" r="8" fill="#4D00FF"/>
+                          </svg>
+                          
+                      </span>
+                    </li>
+                    <li class="color__change-item">
+                      <span class="color__item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="8" cy="8" r="8" fill="#FF0000"/>
+                          </svg>
+                          
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure-long">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green-maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Педикюр
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+        </ul>
+        <button class="add_button">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 16H16M16 16H24M16 16V24M16 16V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>            
+        </button>
+      </div>
+      <div class="right__top-container">
+        <div class="top__container-burger">
+          <div class="container__burger-left">
+            <button class="menu__burger button__reset">
+              <span class="menu__burger-btn">
+                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.666016 14.6666H19.3327M0.666016 7.99998H19.3327M0.666016 1.33331H11.3327" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                
+              </span>
+            </button>
+            <button class="date__burger button__reset">
+              <span class="date__burger-descr">
+                Сентябрь
+              </span>
+              <span class="date__burger-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.6673 6.66669L8.00065 9.33335L5.33398 6.66669" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                                                  
+              </span>
+            </button>
+          </div>
+          <div class="container__burger-right">
+            <button class="date__burger-right button__reset">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 8H20M4 8V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2842 19.7822 18.9079C20 18.4805 20 17.9215 20 16.8036V8M4 8V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H8M20 8V7.19691C20 6.07899 20 5.5192 19.7822 5.0918C19.5905 4.71547 19.2837 4.40973 18.9074 4.21799C18.4796 4 17.9203 4 16.8002 4H16M8 4H16M8 4V2M16 4V2M15 12L11 16L9 14" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                
+            </button>
+            <div class="profile__block-img">
+              <img src="./img/profile.png" alt="photo">
+            </div>
+          </div>
+        </div>
+        <div class="bottom__container-burger open__masters open__calendar">
+          <button class="burger__calendar-button button__reset">
+            <span class="date__day">
+              19
+            </span>
+            <span class="date__day">
+              ЧТ
+            </span>
+          </button>
+          <div class="burger__master-active">
+            <span class="master__link">
+              <div class="master__block-img">
+                <img src="./img/master1.png" alt="photo">
+              </div>
+              <div class="master__block-name">
+                <span class="master__name">
+                  Мария Васильева <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.66732 0.666687L4.00065 3.33335L1.33398 0.666687" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                </span>
+                <span class="master__type">
+                  Парикмахер
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="top__container-btns">
+          <button class="top__btn-upd">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.66602 10.6667H3.33268V14M9.33268 5.33333H12.666V2M3.05469 6.00227C3.42848 5.07711 4.05431 4.27536 4.86105 3.68815C5.66779 3.10094 6.62392 2.75168 7.61918 2.68034C8.61445 2.609 9.60917 2.81827 10.4914 3.28441C11.3737 3.75055 12.1068 4.45503 12.6088 5.31742M12.9444 9.99805C12.5706 10.9232 11.9448 11.725 11.138 12.3122C10.3313 12.8994 9.37613 13.2482 8.38086 13.3195C7.38559 13.3909 6.39006 13.1816 5.50781 12.7155C4.62557 12.2494 3.8919 11.545 3.38997 10.6826" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+          </button>
+          <button class="top__btn-day">
+            Сегодня            
+          </button>
+        </div>
+        <div class="bottom__container-calendar">
+          <span class="calendar__month">
+            Сентябрь
+          </span>
+          <div class="calendar__list">
+            <button class="calendar__btn-previous">
+              <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 19L6 12L13 5" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>              
+            </button>
+            <ul class="calendar__list-days">
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  18
+                </span>
+                <span class="list__item-descr">
+                  СР
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  19
+                </span>
+                <span class="list__item-descr">
+                  ЧТ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  20
+                </span>
+                <span class="list__item-descr">
+                  ПТ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  21
+                </span>
+                <span class="list__item-descr">
+                  СБ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  22
+                </span>
+                <span class="list__item-descr">
+                  ВС
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  23
+                </span>
+                <span class="list__item-descr">
+                  ПН
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  24
+                </span>
+                <span class="list__item-descr">
+                  ВТ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  25
+                </span>
+                <span class="list__item-descr">
+                  СР
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  26
+                </span>
+                <span class="list__item-descr">
+                  ЧТ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  27
+                </span>
+                <span class="list__item-descr">
+                  ПТ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  28
+                </span>
+                <span class="list__item-descr">
+                  СБ
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  29
+                </span>
+                <span class="list__item-descr">
+                  ВС
+                </span>
+              </li>
+              <li class="calendar__list-item">
+                <span class="list__item-descr">
+                  30
+                </span>
+                <span class="list__item-descr">
+                  ПН
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  1
+                </span>
+                <span class="list__item-descr">
+                  ВТ
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  2
+                </span>
+                <span class="list__item-descr">
+                  СР
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  3
+                </span>
+                <span class="list__item-descr">
+                  ЧТ
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  4
+                </span>
+                <span class="list__item-descr">
+                  ПТ
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  5
+                </span>
+                <span class="list__item-descr">
+                  СБ
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  6
+                </span>
+                <span class="list__item-descr">
+                  ВС
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  7
+                </span>
+                <span class="list__item-descr">
+                  ПН
+                </span>
+              </li>
+              <li class="calendar__list-item tab__hidden">
+                <span class="list__item-descr">
+                  8
+                </span>
+                <span class="list__item-descr">
+                  ВТ
+                </span>
+              </li>
+            </ul>
+            <button class="calendar__btn-next">
+              <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 5L14 12L7 19" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>              
+            </button>
+          </div>
+        </div>
+        <div class="top__masters-list-mob">
+          <ul class="masters__list-mob">
+            <li class="master__item-mob active__item">
+              <div class="burger__master-active">
+                <span class="master__link">
+                  <div class="master__block-img">
+                    <img src="./img/master1.png" alt="photo">
+                  </div>
+                  <div class="master__block-name">
+                    <span class="master__name">
+                      Мария Васильева            
+                    </span>
+                    <span class="master__type">
+                      Парикмахер
+                    </span>
+                  </div>
+                </span>
+              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12L8.94975 16.9497L19.5572 6.34326" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                
+            </li>
+            <li class="master__item-mob">
+              <div class="burger__master-active">
+                <span class="master__link">
+                  <div class="master__block-img">
+                    <img src="./img/master2.png" alt="photo">
+                  </div>
+                  <div class="master__block-name">
+                    <span class="master__name">
+                      Оксана Дмитриева            
+                    </span>
+                    <span class="master__type">
+                      Мастер маникюра
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </li>
+            <li class="master__item-mob">
+              <div class="burger__master-active">
+                <span class="master__link">
+                  <div class="master__block-img">
+                    <img src="./img/master1.png" alt="photo">
+                  </div>
+                  <div class="master__block-name">
+                    <span class="master__name">
+                      Мария Васильева            
+                    </span>
+                    <span class="master__type">
+                      Парикмахер
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </li>
+            <li class="master__item-mob">
+              <div class="burger__master-active">
+                <span class="master__link">
+                  <div class="master__block-img">
+                    <img src="./img/master1.png" alt="photo">
+                  </div>
+                  <div class="master__block-name">
+                    <span class="master__name">
+                      Мария Васильева            
+                    </span>
+                    <span class="master__type">
+                      Парикмахер
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>    
+        <div class="top__calendar-mob">
+          <ul class="calendar__days-list top__list">
+            <li class="list__days-item">
+              <span class="week__day">
+                Пн
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Вт
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Ср
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Чт
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Пт
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Сб
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                Вс
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                1
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                2
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                3
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                4
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                5
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                6
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                7
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                8
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                9
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                10
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                11
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                12
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                13
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                14
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                15
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                16
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                17
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                18
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                19
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                20
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                21
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                22
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                23
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                24
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                25
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                26
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                27
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                28
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                29
+              </span>
+            </li>
+          </ul>
+          <ul class="calendar__days-list">
+            <li class="list__days-item">
+              <span class="week__day">
+                30
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+            <li class="list__days-item">
+              <span class="week__day">
+                
+              </span>
+            </li>
+          </ul>
+        </div> 
+        <div class="top__calendar-scroll">
+          <ul class="calendar__scroll-list">
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                авг.
+              </span>
+            </li>
+            <li class="scroll__list-item item__active">
+              <span class="list__item-title">
+                сент.
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                окт.
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                нояб.
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                дек.
+              </span>
+            </li>
+            <li class="scroll__list-item__year">
+              <span class="list__item-title">
+                2025
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                янв.
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                февр.
+              </span>
+            </li>
+            <li class="scroll__list-item">
+              <span class="list__item-title">
+                мар.
+              </span>
+            </li>
+          </ul>
+        </div>     
+      </div>
+    </div>
+    <div class="bottom_block-burger masters__open calendar__open">
+      
+      <svg class="vertical__line" width="1" height="865" viewBox="0 0 1 865" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0.5" y1="0" x2="0.5" y2="865" stroke="#30363E"/>
+      </svg>          
+      <ul class="right__time-list">
+        <li class="right__time-item">
+          <span class="time__item">
+            8:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            8:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            9:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            9:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            10:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            10:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            11:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            11:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            12:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            12:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            13:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            13:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            14:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            14:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            15:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            16:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            16:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            17:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            17:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            18:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            18:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            19:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            19:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            20:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            20:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            21:00
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            21:30
+          </span>
+        </li>
+        <li class="right__time-item">
+          <span class="time__item">
+            22:00
+          </span>
+        </li>
+      </ul>
+      <div class="right__masters-list">
+        <ul class="masters__list">
+            <div class="time__line-block">
+              <span class="line__block-descr">
+                10:43
+              </span>
+              <svg width="1024" height="1" viewBox="0 0 1024 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4.37114e-08" y1="0.5" x2="1030" y2="0.50009" stroke="#FF0000"/>
+              </svg>  
+            </div>
+          <li class="master__list-item active">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block first__mob">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+              <div class="item__block-descr block__blue-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue-mob">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block "></div>
+            <div class="list__item-block "></div>
+            <div class="list__item-block mob__hidden"></div>
+            
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master2.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Оксана Дмитриева
+                  </span>
+                  <span class="master__type">
+                    Мастер маникюра
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__gray">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name new__sign">
+                    Новая запись
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Маникюр
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="block__new-sign">
+
+                <button class="block__sign-close">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 16L12 12M12 12L8 8M12 12L16 8M12 12L8 16" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                  
+                </button>
+                <ul class="new__sign-list">
+                  <li class="new__sign-item pl36 fdc">
+                    <span class="new__sign-title">
+                      Добавьте услугу
+                    </span>
+                    <svg class="tab__line" width="220" height="1" viewBox="0 0 220 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line y1="0.5" x2="220" y2="0.5" stroke="#A0A0A0"/>
+                    </svg>   
+                    <svg class="pc__line" width="334" height="1" viewBox="0 0 334 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line y1="0.5" x2="334" y2="0.5" stroke="#A0A0A0"/>
+                    </svg>                                     
+                  </li>
+                  <li class="new__sign-item">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>                      
+                    <span class="sign__item-text ml20">
+                      Четверг, 19&nbsp;сентября
+                    </span>
+                    <span class="sign__item-text ml16">
+                      8:00&nbsp;&mdash; 9:00
+                    </span>
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                  
+                    <input type="text" class="new__sign-input ml20" placeholder="Добавить клиента">
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 13.3333C14 12.1722 12.8869 11.1844 11.3333 10.8184M10 13.3333C10 11.8606 8.20914 10.6667 6 10.6667C3.79086 10.6667 2 11.8606 2 13.3333M10 8.66668C11.4728 8.66668 12.6667 7.47277 12.6667 6.00001C12.6667 4.52725 11.4728 3.33334 10 3.33334M6 8.66668C4.52724 8.66668 3.33333 7.47277 3.33333 6.00001C3.33333 4.52725 4.52724 3.33334 6 3.33334C7.47276 3.33334 8.66667 4.52725 8.66667 6.00001C8.66667 7.47277 7.47276 8.66668 6 8.66668Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                    <span class="sign__item-text ml20">
+                      Мария Васильева, парикмахер
+                    </span>
+                    <svg class="ml20" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="7.5" fill="#CCF4FF" stroke="#A0A0A0"/>
+                    </svg>                    
+                  </li>
+                  <li class="new__sign-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 11.3334H6.66667M10 10.6667H12M12 10.6667H14M12 10.6667V12.6667M12 10.6667V8.66669M2 8.00002H9.33333M2 4.66669H9.33333" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                    <input type="text" class="new__sign-input ml20" placeholder="Добавить описание или коментарии">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure-long">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green-maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Педикюр
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue_maniqure">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Маникюр+покрытие
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Кабинет 1
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+          <li class="master__list-item">
+            <div class="list__item-block first__item-block">
+              <span class="master__link">
+                <div class="master__block-img">
+                  <img src="./img/master1.png" alt="photo">
+                </div>
+                <div class="master__block-name">
+                  <span class="master__name">
+                    Мария Васильева
+                  </span>
+                  <span class="master__type">
+                    Парикмахер
+                  </span>
+                </div>
+              </span>
+            </div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__green">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name pokraska-strizhka">
+                    Покраска+Стрижка
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>          
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__orange">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name obed">
+                    Обеденный перерыв
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__red">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-zhenskaya">
+                    Стрижка женская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__blue">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block">
+              <div class="item__block-descr block__purple">
+                <div class="block__descr-info">
+                  <span class="block__decsr-name strizhka-purple">
+                    Стрижка мужская
+                  </span>
+                  <span class="block__decsr-time">
+                    8:00-9:00
+                  </span>
+                </div>
+                <span class="block__descr-client">
+                  Клиент: Александр&nbsp;О.
+                </span>
+              </div>
+            </div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+            <div class="list__item-block"></div>
+          </li>
+        </ul>
+        <button class="add_button">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 16H16M16 16H24M16 16V24M16 16V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>            
+        </button>
+      </div>
+    </div>
+    <div class="block__new-sign-mob">
+      <div class="new__sign-colors">
+        <ul class="sign__colors-list">
+          <li class="sign__colors-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="7.5" fill="#00C8FF" stroke="#30363E"/>
+            </svg>                      
+          </li>
+          <li class="sign__colors-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="8" fill="#FF6A00"/>
+              </svg>
+              
+          </li>
+          <li class="sign__colors-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="8" fill="#019F3C"/>
+              </svg>
+              
+          </li>
+          <li class="sign__colors-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="8" fill="#4D00FF"/>
+              </svg>
+              
+          </li>
+          <li class="sign__colors-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="8" fill="#FF0000"/>
+              </svg>
+              
+          </li>
+        </ul>                 
+      </div>
+      <div class="block__sign-top">
+        <button class="block__sign-close-mob">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 16L12 12M12 12L8 8M12 12L16 8M12 12L8 16" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>                  
+        </button>
+        <button class="block__sign-save-mob">
+          Сохранить                
+        </button>
+      </div>
+      <ul class="new__sign-list-mob">
+        <li class="new__sign-item pl36 fdc">
+          <span class="new__sign-title">
+            Добавьте услугу
+          </span>
+          <svg class="tab__line" width="303" height="1" viewBox="0 0 303 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="303" y2="0.5" stroke="#A0A0A0"/>
+            </svg>                      
+          <svg class="pc__line" width="334" height="1" viewBox="0 0 334 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="0.5" x2="334" y2="0.5" stroke="#A0A0A0"/>
+          </svg>                                     
+        </li>
+        <li class="new__sign-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                      
+          <span class="sign__item-text ml20">
+            Четверг, 19&nbsp;сентября
+          </span>
+          <span class="sign__item-text ml16">
+            8:00&nbsp;&mdash; 9:00
+          </span>
+        </li>
+        <li class="new__sign-item">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 4.66667V8H11.3333M8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>                  
+          <input type="text" class="new__sign-input ml20" placeholder="Добавить клиента">
+        </li>
+        <li class="new__sign-item">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 13.3333C14 12.1722 12.8869 11.1844 11.3333 10.8184M10 13.3333C10 11.8606 8.20914 10.6667 6 10.6667C3.79086 10.6667 2 11.8606 2 13.3333M10 8.66668C11.4728 8.66668 12.6667 7.47277 12.6667 6.00001C12.6667 4.52725 11.4728 3.33334 10 3.33334M6 8.66668C4.52724 8.66668 3.33333 7.47277 3.33333 6.00001C3.33333 4.52725 4.52724 3.33334 6 3.33334C7.47276 3.33334 8.66667 4.52725 8.66667 6.00001C8.66667 7.47277 7.47276 8.66668 6 8.66668Z" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>                    
+          <span class="sign__item-text ml20">
+            Мария Васильева, парикмахер
+          </span>
+          <svg class="ml20" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="8" r="7.5" fill="#CCF4FF" stroke="#A0A0A0"/>
+          </svg>                    
+        </li>
+        <li class="new__sign-item">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 11.3334H6.66667M10 10.6667H12M12 10.6667H14M12 10.6667V12.6667M12 10.6667V8.66669M2 8.00002H9.33333M2 4.66669H9.33333" stroke="#30363E" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>                    
+          <input type="text" class="new__sign-input ml20" placeholder="Добавить описание или коментарии">
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
