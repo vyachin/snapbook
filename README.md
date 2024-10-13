@@ -1,1 +1,1 @@
-![Image alt](https://github.com/vyachin/snapbook/screenshots/1.png)
+![Image alt](https://github.com/vyachin/snapbook/blob/main/screenshots/1.png)
